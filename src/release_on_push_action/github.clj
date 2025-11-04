@@ -53,7 +53,7 @@
              {:headers (headers context)})))
 
 ;; -- Github Releases API  -----------------------------------------------------
-(defn fetch-most-recent-release
+(defn fetch-latest-release
   "Gets the most recent release from the releases list endpoint.
    Returns nil when there are no releases (empty list).
 
